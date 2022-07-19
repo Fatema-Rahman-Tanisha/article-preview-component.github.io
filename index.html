@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Article preview component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+
+</head>
+<body class="w-screen h-[100vh] bg-[#ecf2f8] flex justify-center items-center overflow-y-hidden overflow-x-scroll">
+<div class="container w-[276px] h-[570px] md:w-[450px] md:h-[30rem] lg:h-[20rem] lg:w-[50%] bg-white rounded-lg flex justify-between items-center lg:flex-row flex-col">
+<div class="imgBox lg:w-[40%] lg:h-full w-full md:h-1/2 h-[40%]">
+<img src="./images/drawers.jpg" class="w-full h-full" alt="">
+</div>
+<div class="textBox lg:w-[58%] w-full box-border px-6 flex flex-col justify-center items-center">
+<h1 class="xl:text-xl text-lg xl:tracking-wide tracking-tight font-semibold text-[#48556a]"  style="font-family: 'Baloo Bhaina 2', cursive;" >Shift the overall look and feel by adding these wonderful 
+  touches to furniture in your home
+</h1>
+<p class="xl:py-4 py-1 text-sm cl:leading-6 xl:tracking-wide text-[#48556a]">
+  Ever been in a room and felt like something was missing? Perhaps 
+  it felt slightly bare and uninviting. I’ve got some simple tips 
+  to help you make any room feel complete.
+
+</p>
+<div class="profileBox flex pt-5 w-full justify-between items-center">
+<div class="profileInfo flex w-[90%]">
+<img class="h-12 rounded-full" src="./images/avatar-michelle.jpg" alt="">
+<div class="profileData flex flex-col justify-center">
+  <p style="font-family: 'Baloo Bhaina 2', cursive;" class="md:text-base font-bold text-[#48556a] px-3">Michelle Appleton</p>
+
+  <p style="font-family: 'Baloo Bhaina 2', cursive;" class="md:text-sm text-xs text-[#48556a] px-3"> 28 Jun 2020</p>
+</div>
+</div>
+<div class="shareItems flex items-end flex-col">
+  <div id="shareDiv" class=" flex w-36 h-10 translate-y-[-20px] bg-[#48556a] mb-2 rounded-lg justify-evenly items-center hidden">
+<p class="font-light text-white text-xs  uppercase tracking-widest">share</p>
+<img class="w-4" src="./images/icon-facebook.svg" alt="">
+<img class="w-4" src="./images/icon-twitter.svg" alt="">
+<img class="w-4" src="./images/icon-pinterest.svg" alt="">
+  </div>
+  <div id="shareButton" class="w-10 mr-5 share bg-[#ecf2f8] rounded-full hover:bg-[#d9dadb]">
+  <img class="p-3" src="./images/icon-share.svg" alt="">
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<script src="./js/index.js"></script>
+</body>
+</html>
